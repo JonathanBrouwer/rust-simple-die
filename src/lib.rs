@@ -26,7 +26,7 @@ mod tests {
     use super::*;
 
     #[test]
-    #[should_panic()]
+    #[should_panic]
     fn sides_less_than_one(){
         let sides = 0;
         let die = Die::new(sides);
